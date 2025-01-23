@@ -47,6 +47,7 @@ arguments.")
 	 :initarg :term
 	 :type string
 	 :attribute-name "term"
+         :initform *gnuplot-default-term*
 	 :documentation "Terminal used by gnuplot as in @c(set term <term>).  The default is taken from @c(*gnuplot-default-term*)."))
   (:tag-name "gnuplot")
   (:documentation "gnuplot plot."))
