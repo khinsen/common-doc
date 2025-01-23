@@ -78,7 +78,8 @@
                      (make-instance 'common-doc.tex:tex-block
                                     :children
                                     (list
-                                     (make-text "\\int \\log x")))))))
+                                     (make-text "\\int \\log x"))))))
+        doc)
     (finishes
       (setf doc (common-doc.macro:expand-macros tex-inline)))
     (finishes
