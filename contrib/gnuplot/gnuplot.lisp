@@ -65,7 +65,7 @@ with gnuplot into an image."
                         (namestring pathname)
                         text))
          ;; The gnuplot command
-         (command "gnuplot"))
+         (command *gnuplot-command*))
     ;; Run
     (handler-case
         (progn
