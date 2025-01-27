@@ -1,12 +1,10 @@
 # CommonDoc
 
-[![Build Status](https://travis-ci.org/CommonDoc/common-doc.svg?branch=master)](https://travis-ci.org/CommonDoc/common-doc)
-[![Coverage Status](https://coveralls.io/repos/CommonDoc/common-doc/badge.svg?branch=master)](https://coveralls.io/r/CommonDoc/common-doc?branch=master)
-[![Quicklisp badge](http://quickdocs.org/badge/common-doc.svg)](http://quickdocs.org/common-doc/)
-
 A framework for representing and manipulating documents as CLOS objects.
 
 See the [documentation](http://commondoc.github.io/docs/overview.html).
+
+The [original author](https://github.com/eudoxia0) of this framework no longer maintains it and has marked the repositories as archived. Since I use this framework and publish code that depends on it, I have decided to assume lightweight maintenance, meaning bug fixes and minor feature additions.
 
 # Libraries
 
@@ -18,6 +16,7 @@ See the [documentation](http://commondoc.github.io/docs/overview.html).
 
 # License
 
-Copyright (c) 2014-2015 Fernando Borretti
+Copyright (c) 2014-2015 Fernando Borretti  
+Copyright (c) 2025 Konrad Hinsen
 
 Licensed under the MIT License.
